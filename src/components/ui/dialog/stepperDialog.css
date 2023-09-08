@@ -1,0 +1,13 @@
+.stepItem {
+  @apply flex justify-center gap-2;
+}
+
+.singleStep {
+  @apply w-2 h-2 flex bg-gray-400 rounded-full;
+}
+.activeStep {
+  @apply bg-primary;
+}
+.completeStep {
+  @apply bg-white;
+}
